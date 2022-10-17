@@ -16,7 +16,7 @@ print(num_list)
 
 result = 0
 
-for i in range(0, num, 2):
+for i in range(0, num, 2): # Шаг в 2 использую, так как выяснять четность/нечетность не обязательно) это всегда будут элементы с четным индексом
     result += num_list[i]
 
 print(result)
