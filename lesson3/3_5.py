@@ -9,10 +9,6 @@
 #5
 #out
 #5 -3 2 -1 1 0 1 1 2 3 5
-
-from audioop import reverse
-
-
 num = int(input('Введите число '))
 
 def fibo_minus(num):
